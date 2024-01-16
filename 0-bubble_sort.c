@@ -1,10 +1,8 @@
 #include "sort.h"
-<<<<<<< HEAD
-
 /**
- * swap - sort an array in ascending order
- * @a: pointer to the array to sort
- * @b: size of the array
+ * swap - swap variable.
+ * @a: variable 1
+ * @b: variable 2
  */
 
 void swap(int *a, int *b)
