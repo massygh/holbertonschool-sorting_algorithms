@@ -26,10 +26,10 @@ void bubble_sort(int *array, size_t size)
 		{
 			if (array[j] > array[j + 1])
 			{
-				// Swap elements if they are in the wrong order
+				/* Swap elements if they are in the wrong order */
 				swap(&array[j], &array[j + 1]);
 
-				// Print the array after each swap
+				/* Print the array after each swap */
 				for (size_t k = 0; k < size - 1; k++)
 				{
 					printf("%d, ", array[k]);
