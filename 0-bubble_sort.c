@@ -31,12 +31,10 @@ void bubble_sort(int *array, size_t size)
 			if (array[j] > array[j + 1])
 			{
 				swap_ints(&array[j], &array[j + 1]);
-				print_array(array, size); // Assuming print_array is implemented
+				print_array(array, size);
 				swapped = true;
 			}
 		}
-
-		// If no two elements were swapped by inner loop, then break
 		if (!swapped)
 			break;
 	}
