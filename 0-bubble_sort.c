@@ -1,4 +1,5 @@
 #include "sort.h"
+<<<<<<< HEAD
 
 /**
  * swap - sort an array in ascending order
