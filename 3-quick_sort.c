@@ -21,6 +21,7 @@ void swap(int *a, int *b)
  * @array: array to be sorted
  * @low: starting index of partition
  * @high: ending index of partition
+ * @size: size of the array
  * Return: final index of the pivot
  */
 int lomuto_partition(int *array, int low, int high, size_t size)
